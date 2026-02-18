@@ -6,7 +6,7 @@ import os
 TOKEN = os.getenv("BOT_TOKEN")
 
 MAX_REACTIONS = 40
-EMOJI_LIST = ["🔥","❤️","👍","⚡","💎","🚀","😍","👏"👿","😎']
+EMOJI_LIST = ["🔥","❤️","👍","⚡","💎","🚀","😍","👏","👿","😎"]
 
 async def on_startup(app):
     print("Hello Alone Bot is Active 🔥")
